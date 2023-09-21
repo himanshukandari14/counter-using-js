@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter|hymanshu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+     <script src="https://kit.fontawesome.com/3e9f1fe9be.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="bg-blue-950 h-[100vh] w-[100vw] flex justify-center items-center">
+        <!-- counter body div -->
+        <div class=" h-[200px] w-[300px] flex items-center flex-col justify-center pb-9">
+            <!-- heading -->
+            <div class=" text-blue-400 text-center"><p class="text-[20px]">Increement and Decreement</p></div>
+            <!-- counter body -->
+            <div class="h-[50%] w-full flex justify-center items-center">
+                <!-- neg -->
+                <button id="negative" class="bg-white h-[60%] w-[25%] border-r border-slate-600">
+                     <i class="fa-solid fa-minus fa-lg" style="color: #000000;"></i></button>
+
+
+
+                     <!-- counter -->
+                <button id="counter" class=" bg-white h-[60%] w-[25%] flex justify-center items-center">
+                   <h1 class="text-[40px]">0</h1>
+                </button>
+
+
+
+                <!-- pos -->
+               
+                <button id="positive" class=" bg-white h-[60%] w-[25%] border-l border-slate-600">
+                     <i class="fa-solid fa-plus fa-lg" style="color: #000000;"></i></button>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- js -->
+    <script src="script.js"></script>
+</body>
+</html>
